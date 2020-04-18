@@ -1,0 +1,154 @@
+body{
+    background-image: url("../img/bg-stone-wall.jpeg");
+    /* background-blend-mode: multiply; */
+}
+
+#page-main{
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.fore-ground{
+    background-color: lightblue;
+    /* opacity: 0.5; */
+    background: rgba(171, 205, 239, 0.5);
+}
+
+.center{
+    text-align: center;
+    display: inline-block;
+  }
+
+#profile-pic-div img{
+    border: darkslategray solid 5px;
+    border-radius: 7px;
+}
+
+.left-div{
+    width: 33%;
+    float: left;
+}
+
+.right-div{
+    width: 62%;
+    float: left;
+    margin-right: 5%;
+}
+
+.top-div{
+    height: 300px;
+    margin-top: 30px;
+}
+
+#top-right-div{
+    height: 100%;
+}
+
+#main-name-div{
+    background-color: darkslategray;
+    color: aquamarine;
+    height: 41%;
+}
+
+#bio-div{
+    height: 45%;
+    font-size: 35px;
+    font-weight: 300;
+    color: gray;
+}
+
+#bio-div p{
+    margin: 3px;
+    padding: 30px;
+}
+
+#main-name p{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 1px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+#role-div p{
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+#role-div{
+    background-color: lightblue;
+    color: darkgreen;
+    margin-left: 49.5%;
+    width: 50%;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+#bio-data{
+    color: darkgreen;
+    text-align: left;
+    margin-left: 15px;
+}
+
+form input, form textarea{
+    width: 250px;
+    line-height: 18px;
+    padding: 3px;
+}
+
+.light-blue-bg{
+    /* background-color: lightblue; */
+    background: rgba(170, 243, 248, 0.6);
+}
+
+.border-solid{
+    border: darkslategray solid 2px;
+}
+
+.border-right-solid{
+    border-right: darkslategray solid 1px;
+}
+
+.border-left-solid{
+    border-left: darkslategray solid 1px;
+}
+
+.color-dk-gr{
+    color: darkgreen;
+}
+
+.mt-px{
+    margin-top: 10px;
+}
+
+.mb-px{
+    margin-bottom: 20px;
+}
+
+#bottom-left-div{
+    width: 36%;
+    margin-left: 1%;
+    font-size: 20px;
+}
+
+#bottom-right-div{
+    width: 61%;
+    margin-right: 1% !important;
+    font-size: 20px;
+}
+
+form button{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    background-color: cadetblue;
+}
+
+#information{
+    font-size: 25px;
+    color: darkgreen;
+}
